@@ -31,7 +31,6 @@ class MonitorDirectory():
             observer.schedule(self.my_event_handler, path, recursive=self.go_recursively)
             self.observers.append(observer)
 
-
     def reset(self, *args):
         self.dirs = []
         self.stop()

@@ -84,7 +84,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `panagiotisntinis`, `tartarus`, `panagiotisntinis`, `panagiotisntinis`, `gmail`, `Tartarus`, `Defacement monitoring and alerting tool`
+This tools has the purpose to constantly monitor the root directory of a website and create alerts for any change detected. It can monitor more than one websites as long as they reside on the same server. It can also provide functionality to frequently check third party resources for changes, or even check the websites requested by acting as a client.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -141,10 +141,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [] Server-side functionality
+    - [] Directory monitoring
+    - [] Integrity check
+
+- [] Client-side functionality
+    - [] third-party resources monitoring
+    - [] client-side website monitoring
 
 See the [open issues](https://github.com/panagiotisntinis/tartarus/issues) for a full list of proposed features (and known issues).
 
